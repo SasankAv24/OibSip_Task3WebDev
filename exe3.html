@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature</title>
+    <link rel="stylesheet" href="exe3.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1> Temperature Converter </h1>
+        </div>
+    </header>
+<main>
+    <div class="main-div">
+    <div class="form">
+        <form>
+            <input type="number" name="input" id="input" placeholder="Enter Temperature in Degrees">
+            <button onclick="resetinput()">Reset</button>
+        </form>
+    </div>
+    <div class="Celsius">
+        <h4>
+            <button onclick="ctf()">Celsius to Fahrenheit</button>
+            <button onclick="ctk()">Celsius to Kelvin</button>
+        </h4>
+    </div>
+    <div class="Fahrenheit">
+        <h4>
+            <button onclick="ftc()">Fahrenheit to Celsius</button>
+            <button onclick="ftk()">Fahrenheit to Kelvin</button>
+        </h4>
+    </div>
+    <div class="Kelvin">
+        <h4>
+            <button onclick="ktc()">Kelvin to Celsius</button>
+            <button onclick="ktf()">Kelvin to Fahrenheit</button>
+        </h4>
+    </div>
+        <div class="result">
+            <h3><span class="end">Result : </span><span id="output" name="output" value="output"></span></h3>
+        </div>
+    </div>
+    <script src="exe3.js"></script>
+</main>
+</html>

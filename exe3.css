@@ -1,0 +1,98 @@
+.header{
+    margin-top: 150px;
+    text-align: center;
+    color: 	#191970;
+}
+body{
+    background-image: url("bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.main-div .enter{
+    margin-left: 150px;
+    font-size: 1.15em;
+    padding-inline-end: 9.5rem;
+    color: #0e4bef;
+}
+.main-div .form form input {
+    width: 300px;
+    height: 40px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    text-align: center;
+    color: #0e4bef;
+}
+.main-div .form form button{
+    border-radius: 20px;
+    font-size: 1.1em;
+    margin-left: 5px;
+    width: 100px;
+    height: 40px;
+    background-color: #e2fcfb;
+}
+.main-div .form form button:hover{
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    transition: all 500ms ease-in-out;
+}
+.main-div .Celsius{
+    text-align: center;
+}
+.main-div .Celsius h4 button{
+    border-radius: 20px;
+    font-size: 1.1em;
+    width: 200px;
+    height: 40px;
+    background-color: #e2fcfb;
+}
+.main-div .Celsius h4 button:hover{
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    transition: all 500ms ease;
+}
+.main-div .Fahrenheit{
+    text-align: center;
+}
+.main-div .Fahrenheit h4 button{
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 1.1em;
+    background-color: #e2fcfb;
+    transition: all 500ms ease;
+}
+.main-div .Fahrenheit h4 button:hover{
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+}
+.main-div .Kelvin{
+    text-align: center;
+}
+.main-div .Kelvin h4 button{
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 1.1em;
+    background-color: #e2fcfb;
+    transition: all 500ms ease;
+}
+.main-div .Kelvin h4 button:hover{
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+}
+.main-div .result{
+    color: #191970;
+    font-size: 1.4em;
+    margin-left: 150px;
+    padding-inline-end: 9.5rem;
+}
